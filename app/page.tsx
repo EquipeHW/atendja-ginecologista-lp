@@ -334,31 +334,27 @@ export default function LandingPage() {
             <div className="max-w-3xl mx-auto">
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
-                  <AccordionTrigger>Como é o exame preventivo?</AccordionTrigger>
+                  <AccordionTrigger>Como funciona o atendimento?</AccordionTrigger>
                   <AccordionContent>
-                    Rápido e indolor, feito por nossas ginecologistas em ambiente privativo.
+                    Presencial com agendamento via WhatsApp. Atendimento ágil e sem filas.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
-                  <AccordionTrigger>Preciso de encaminhamento para colocar DIU?</AccordionTrigger>
-                  <AccordionContent>Não. Agende diretamente conosco.</AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-3">
-                  <AccordionTrigger>Os exames têm custo adicional?</AccordionTrigger>
-                  <AccordionContent>Valores à parte, mas com preços acessíveis (consulte).</AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-4">
-                  <AccordionTrigger>Quanto tempo demora para receber o resultado do preventivo?</AccordionTrigger>
+                  <AccordionTrigger>Trabalha com convênios?</AccordionTrigger>
                   <AccordionContent>
-                    Nossos resultados são entregues em até 7 dias úteis, com a possibilidade de recebê-los por e-mail ou
-                    WhatsApp.
+                    Não. Atendemos exclusivamente como clínica particular, com recibo para reembolso.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-5">
-                  <AccordionTrigger>Vocês atendem convênios ou planos de saúde?</AccordionTrigger>
+                <AccordionItem value="item-3">
+                  <AccordionTrigger>Como agendo minha consulta?</AccordionTrigger>
                   <AccordionContent>
-                    Não, trabalhamos com atendimento particular a preços acessíveis, sem a burocracia dos planos de
-                    saúde.
+                    Entre em contato pelo WhatsApp (75) 3026‑8494 ou via redes sociais.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-4">
+                  <AccordionTrigger>Qual o valor das consultas?</AccordionTrigger>
+                  <AccordionContent>
+                    Consultas a partir de R$ 150 e procedimentos desde R$ 80.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
